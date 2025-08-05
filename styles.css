@@ -51,5 +51,7 @@ header {
 
 @media (min-width: 360px) and (max-width 800) {
   .hero img {transform: scale(1.5);}
+  .hero {height: 100px;}
 
 }
+

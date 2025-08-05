@@ -29,3 +29,15 @@ header {
   display: flex;
   flex-direction: row;
 }
+
+/* about page specifically */
+.about-body {
+  background-color: rgb(229, 150, 81);
+}
+
+ p {
+  margin-bottom: 20px;
+  text-indent: 20px;
+  text-align: center;
+  width: 800px;
+ }

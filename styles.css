@@ -1,0 +1,44 @@
+/* To apply to all elements depending on specifity */
+* {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* Header - Unordered List */
+.website-header {
+  background-color: black;
+  width: 100%;
+}
+
+.my-name {
+ list-style-type: none;
+ text-align: start;
+ font-size: 2rem;
+ color: white;
+ display: inline-block;
+}
+
+.nav-links {
+  /*
+  display: flex;
+  justify-content: end;
+  */
+}
+
+.about-link, .portfolio-link, .contact-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 75px;
+  font-size: 1.5rem;
+}
+
+/* Hero Section */
+.hero {
+}
+
+.foot {
+  background-color: black;
+  color: white;
+}

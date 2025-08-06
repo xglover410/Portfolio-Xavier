@@ -28,8 +28,41 @@ header {
 .header-container {
   display: flex;
   flex-direction: row;
+  margin-bottom: 150px;
 }
 
 .contact-body {
   background-color: orange
 }
+
+.contact-H {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.career-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.linkedin-link {
+  margin-right: 125px;
+}
+
+.email-input {
+  display: block;
+  text-align: center;
+}
+
+.email-message {
+  display: flex;
+  justify-content: center;
+}
+
+.email-submit-button {
+  display: flex;
+  justify-content: center;
+}
+
+/* Start working on message and message box her */

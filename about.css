@@ -8,21 +8,48 @@
 
 header {
   width: 100%;
-  height: ;
-  background-color: rgb(115, 208, 239);
-  color: white;
+  height: 50px;
+  background-color: #EF796D;
 }
 
 .my-name {
   display: flex;
-  flex: 2;
+  flex: 1.55;
   justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 1.75em;
+  font-weight: 600;
+  
+}
+.my-name:hover {
+  background-color: #A25E51;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.my-name:active {
+  background-color: #A25E51;
+  opacity: 0.5;
+  transition: 0.2s;
 }
 
 .tabs {
  display: flex;
  flex: 1;
  justify-content: center;
+ align-items: center;
+ height: 50px;
+ font-size: 1.35em;
+ font-weight: bold;
+}
+.tabs:hover {
+  background-color: rgb(144, 165, 179);
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.tabs:active {
+  opacity: 0.5;
+  transition: 0.5s;
 }
 
 .header-container {
@@ -30,9 +57,13 @@ header {
   flex-direction: row;
 }
 
+
+
+
+
 /* about page specifically */
 .about-body {
-  background-color: rgb(229, 150, 81);
+  background-color: #617C8F;
 }
 
  p {
@@ -40,6 +71,7 @@ header {
   text-indent: 20px;
   text-align: center;
   width: 800px;
+  color: white;
  }
 
  .about-p {
@@ -52,6 +84,7 @@ header {
   text-align: center;
   margin-bottom: 20px;
   text-decoration: underline;
+  color: white;
  }
 
 .profile-pic-container {

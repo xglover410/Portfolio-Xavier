@@ -8,35 +8,66 @@
 
 header {
   width: 100%;
-  height: ;
-  background-color: rgb(115, 208, 239);
-  color: white;
+  height: 50px;
+  background-color: #EF796D;
 }
 
 .my-name {
   display: flex;
-  flex: 2;
+  flex: 1.55;
   justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 1.75em;
+  font-weight: 600;
+  
+}
+.my-name:hover {
+  background-color: #A25E51;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.my-name:active {
+  background-color: #A25E51;
+  opacity: 0.5;
+  transition: 0.2s;
 }
 
 .tabs {
  display: flex;
  flex: 1;
  justify-content: center;
+ align-items: center;
+ height: 50px;
+ font-size: 1.35em;
+ font-weight: bold;
+}
+.tabs:hover {
+  background-color: rgb(144, 165, 179);
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.tabs:active {
+  opacity: 0.5;
+  transition: 0.5s;
 }
 
 .header-container {
   display: flex;
   flex-direction: row;
-  margin-bottom: 150px;
 }
 
+
+
+
+/* About contact page specifically */
 .contact-body {
-  background-color: orange
+  background-color: #D5936F;
 }
 
 .contact-H {
   text-align: center;
+  margin-top: 50px;
   margin-bottom: 50px;
 }
 
@@ -50,6 +81,7 @@ header {
   margin-right: 125px;
 }
 
+/*
 .email-input, .message-box-label, .message-box, .email-message {
   display: block;
   text-align: center;
@@ -61,7 +93,7 @@ header {
   justify-content: center;
 }
 
-/* Start working on message and message box her */
+/* Start working on message and message box here
 
 .email-message {
   display: block;
@@ -70,4 +102,10 @@ header {
 .email-label{
   margin-bottom: 10px;
 }
+*/
 
+.call-email-links {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}

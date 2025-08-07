@@ -69,43 +69,67 @@ header {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
+  color: rgb(8, 60, 88)
 }
 
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.linkedin-link, .github-link, .my-phone-number, .my-email {
+  font-size: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .career-links {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+ 
 }
 
-.linkedin-link {
-  margin-right: 125px;
-}
-
-/*
-.email-input, .message-box-label, .message-box, .email-message {
-  display: block;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.email-message, .email-submit-button {
+.call-email-links {
   display: flex;
   justify-content: center;
-}
-
-/* Start working on message and message box here
-
-.email-message {
-  display: block;
-}
-
-.email-label{
-  margin-bottom: 10px;
+  margin-bottom: 50px;
+  
 }
 */
+
+
+
+
+
+
+/*
+.linkedin-link {
+  margin-right: 75px;
+}
 
 .call-email-links {
   display: flex;
   justify-content: center;
   gap: 70px;
 }
+*/
+
+
+
+

@@ -50,19 +50,24 @@ header {
   margin-right: 125px;
 }
 
-.email-input {
+.email-input, .message-box-label, .message-box, .email-message {
   display: block;
   text-align: center;
+  margin-bottom: 10px;
 }
 
-.email-message {
-  display: flex;
-  justify-content: center;
-}
-
-.email-submit-button {
+.email-message, .email-submit-button {
   display: flex;
   justify-content: center;
 }
 
 /* Start working on message and message box her */
+
+.email-message {
+  display: block;
+}
+
+.email-label{
+  margin-bottom: 10px;
+}
+

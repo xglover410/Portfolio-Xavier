@@ -8,7 +8,7 @@
 
 header {
   width: 100%;
-  height: 50px;
+  height: 52px;
   background-color: #EF796D;
 }
 
@@ -58,9 +58,6 @@ header {
 }
 
 
-
-
-
 /* Hero Section */
 .hero {
   background-color: rgb(241, 153, 115);
@@ -89,9 +86,4 @@ header {
   .hero {height: 100px;}
 
 
-/*  
-@media (min-width: 320px) and (max-width 698) {
-  .hero img {transform: scale(1.5);}
-  .hero {height: 100px;}
-}
-*/
+

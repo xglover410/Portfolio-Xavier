@@ -63,7 +63,7 @@ header {
 
 /* about page specifically */
 .about-body {
-  background-color: #617C8F;
+  background-color: #D5936F;
 }
 
  p {
@@ -71,20 +71,22 @@ header {
   text-indent: 20px;
   text-align: center;
   width: 800px;
-  color: white;
+  color: rgb(8, 60, 88);
+  font-weight: 575;
  }
 
  .about-p {
   display: flex;
   justify-content: center;
   margin-bottom: 25px;
+  font-size: 20px;
  }
 
  .about-H {
   text-align: center;
   margin-bottom: 20px;
   text-decoration: underline;
-  color: white;
+  color: rgb(8, 60, 88);
  }
 
 .profile-pic-container {

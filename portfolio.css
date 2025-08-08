@@ -61,7 +61,6 @@ header {
 h1 {
   color: rgb(8, 60, 88);
   font-size: 60px;
-  text-decoration: underline;
   margin-top:100px;
   margin-bottom: 60px;
 }
@@ -119,4 +118,29 @@ p {
 body {
   text-align: center;
   background-color: #D5936F;
+
+}
+
+.resume-H {
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 5px;
+  padding: 15px;
+}
+.resume-H:hover {
+  background-color: rgb(144, 165, 179);
+}
+
+ /* Contact Icons*/
+.contact-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  border-style: solid;
+  margin-top: 50px;
+}
+
+.linkedin-link, .github-link, .my-phone-number, .my-email {
+  font-size: 30px;
+  margin-top: 10px;
 }

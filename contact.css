@@ -58,8 +58,6 @@ header {
 }
 
 
-
-
 /* About contact page specifically */
 .contact-body {
   background-color: #D5936F;
@@ -72,6 +70,8 @@ header {
   color: rgb(8, 60, 88)
 }
 
+
+/* Contact Icons */
 .contact-links {
   display: flex;
   justify-content: center;

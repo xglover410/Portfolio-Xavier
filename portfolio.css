@@ -77,10 +77,18 @@ p {
   display: inline-block;
   vertical-align: top;
   margin-right: 15px;
+  border-style: solid;
+  box-shadow: 5px 5px 5px;
+  
+}
+.project-description:hover {
+  box-shadow: 15px 15px 15px;
 }
 
 .project-picture-row {
   margin-bottom: 12px;
+  border-bottom: solid;
+  
 }
 
 .project-picture {
